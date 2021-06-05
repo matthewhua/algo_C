@@ -5,11 +5,11 @@
 #include <stdio.h>
 
 struct {
-    char *name;  //å§“å
-    int num;  //å­¦å·
-    int age;  //å¹´é¾„
-    char group; // æ‰€åœ¨å°ç»„
-    float  score; // æˆç»©
+    char *name;  //ĞÕÃû
+    int num;  //Ñ§ºÅ
+    int age;  //ÄêÁä
+    char group; // ËùÔÚĞ¡×é
+    float  score; // ³É¼¨
 }class[] = {
         {"Li ping", 5, 18, 'C', 145.0},
         {"Zhang ping", 4, 19, 'A', 130.5},
@@ -18,6 +18,14 @@ struct {
         {"Wang ming", 3, 17, 'B', 144.5},
         {"Matthew", 3, 18, 'A', 150}
 };
+
+
+int ps()
+{
+    printf("%s\n","ÎÒÊÇÄã°Ö°Ö");
+    return 1;
+}
+
 
 int main()
 {
@@ -29,4 +37,7 @@ int main()
     }
 
     printf("sum=%.2f\naverage=%.2f\nnum_140=%d\n", sum, sum/5, num_140);
+    return ps();
 }
+
+
