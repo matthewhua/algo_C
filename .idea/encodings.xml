@@ -4,5 +4,7 @@
     <file url="file://$PROJECT_DIR$/c_learn/scanfDemo.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/c_learn/struct_Le/struct_normal.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/c_learn/struct_Le/struct_pointer.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/sort/direct_insert_sort.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/sort/sort_PlayWith.c" charset="GBK" />
   </component>
 </project>
